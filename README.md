@@ -1,5 +1,8 @@
 # Disaster Response Pipeline Project
 
+## Installations:
+The project has been done using python 3.6.
+
 ## Project Motivation
 
 In this project, I apply skills I learned in Data Engineering Section to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages.
@@ -27,15 +30,17 @@ In this project, I apply skills I learned in Data Engineering Section to analyze
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
     - To run ML pipeline that trains classifier and saves
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+    - The pre-trained model can be downloaded using this [link]("https://drive.google.com/file/d/1Z6R1ADAoyRlGN-rKxVSHrG2-9isBEnUS/view?usp=sharing").
 
 2. Run the following command in the app's directory to run your web app.
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
 
-![ScreenShot](img.png)
+![ScreenShot](example_image/main-1.png)
+![ScreenShot](example_image/main-2.png)
 
 ## Example
 Type in: We have a lot of problem at Delma 75 Avenue Albert Jode, those people need water and food.
 
-![Example](Example.png)
+![Example](example_image/result.png)
